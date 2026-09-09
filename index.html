@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Surf Conditions · Spain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌊 Best Surf Conditions · Spain</h1>
+    <p class="subtitle">Which spots look best right now, ranked for you.</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <label>
+        Region
+        <select id="region">
+          <option value="all">All regions</option>
+          <option value="Basque Country">Basque Country</option>
+          <option value="Cantabria">Cantabria</option>
+          <option value="Asturias">Asturias</option>
+          <option value="Galicia">Galicia</option>
+          <option value="Canary Islands">Canary Islands</option>
+        </select>
+      </label>
+      <button id="refresh">↻ Refresh</button>
+    </div>
+
+    <p id="status" class="status">Loading…</p>
+
+    <ol id="spots" class="spots"></ol>
+
+    <p class="disclaimer">
+      Conditions are a simple heuristic from Open-Meteo marine data — not a professional surf forecast.
+    </p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
