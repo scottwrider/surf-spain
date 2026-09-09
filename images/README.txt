@@ -1,4 +1,6 @@
-Drop your surf-spot photos here. Name each file exactly (lowercase, no accents):
+Surf-spot photos (downloaded from Wikimedia Commons, freely licensed).
+
+Each image is named by spot slug so app.js can find it automatically:
 
   mundaka.jpg      -> Mundaka
   zarautz.jpg      -> Zarautz
@@ -13,4 +15,8 @@ Drop your surf-spot photos here. Name each file exactly (lowercase, no accents):
   el-quemao.jpg    -> El Quemao
   las-americas.jpg -> Las Americas
 
-The app shows a 🌊 placeholder until a matching file exists.
+The app shows a 🌊 placeholder only if a matching file is missing.
+
+Sources: photos are sourced from Wikimedia Commons under their original
+licenses (CC BY / CC BY-SA / public domain). Replace any file with your own
+photo by naming it the same slug.
